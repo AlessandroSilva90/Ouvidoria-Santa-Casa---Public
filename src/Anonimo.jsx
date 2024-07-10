@@ -3,7 +3,6 @@ import "./App.css";
 import { Container } from "react-bootstrap";
 import {
   createChamado,
-  createChamadoFlask,
   createChamadoAnonimo,
   getSetores,
 } from "./Components/api";
@@ -132,7 +131,7 @@ function Anonimo() {
                 className="btns"
                 style={{ background: "#29cac6", cursor: "pointer" }}
                 onClick={() => {
-                  window.location.href = "/ouvidoria_santa_casa";
+                  window.location.href = "/";
                 }}
               >
                 Voltar

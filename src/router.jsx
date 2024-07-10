@@ -25,7 +25,7 @@ const AppRouts = () => {
   };
 
   return (
-    <Router basename="ouvidoria_santa_casa">
+    <Router>
       <AuthProvider>
         <Routes>
           <Route exact path="/" element={<Inicial />} />

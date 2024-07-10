@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { Container } from 'react-bootstrap';
-import { createChamado, createChamadoFlask, getSetores } from './Components/api';
+import { createChamado, getSetores } from './Components/api';
 import Swal from 'sweetalert2';
 
 function App() {
@@ -166,7 +166,7 @@ function App() {
         </div>
       <div className="btnSecction">
           <input type="submit" className="btns" style={{background:"#ca292d"}} value='Enviar Manifestação'/>
-          <label className="btns" style={{background:"#29cac6", cursor:'pointer'}} onClick={()=>{window.location.href= "/ouvidoria_santa_casa"}} >Voltar</label>
+          <label className="btns" style={{background:"#29cac6", cursor:'pointer'}} onClick={()=>{window.location.href= "/"}} >Voltar</label>
       </div>
 
         </div>
