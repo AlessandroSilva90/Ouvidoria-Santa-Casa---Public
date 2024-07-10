@@ -1,0 +1,171 @@
+.sectionOuvidoriaContent{
+    background-color: #ca292d;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;  
+    align-items: center;  
+    /* flex-wrap: wrap; */
+  }
+  
+  .sectionOuvidoriaContent img {
+    width: 453px;
+    height: 453px;
+  }
+
+  .ouvidoriaimg{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .ouvidoriaExplain{
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 45rem; */
+  }
+
+  .ouvidoriaExplain p{
+    width: 25rem;
+  }
+
+
+  li{
+    list-style: none;
+  }
+
+  /* .TriangleRed{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 6rem 100vw;
+    border-color: WHITE WHITE WHITE #ca292d;
+    transform: scaleX(-1);
+  } */
+
+
+
+  .explainManifest{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .choseManifest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .optionsManifest{
+    /* border: 1px solid black; */
+    border-radius: .5rem;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.5),0 0px 0 1px rgba(10,10,10,0.05);
+    background-color: white;
+    padding: 1rem;
+    width: 70%;
+  }
+
+  .consultaManifest form{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+    justify-self: center;
+  }
+  
+  .consultaManifest button{
+    border-radius: .5rem;
+    width: 20rem;
+    border: none;
+    background-color: #ca292d;
+  }
+
+  .contentInputsManifest{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    font-weight: bold;
+  }
+  .contentInputsManifest input{
+    border-radius: .5rem;
+    border: 1px solid rgb(167, 167, 167);
+  }
+  
+  .sectionButtonsManifest{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  #cadManifest{
+    border: none;
+    background-color: #ca292d;
+    border-radius: .5rem;
+    padding: 1rem;
+  }
+
+  #ViewManifest{
+    border: none;
+    background-color: #29cac6;
+    border-radius: .5rem;
+    padding: 1rem;
+  }
+
+
+.sectionOuvidoriaContentFoot{
+  background-color: #ca292d;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.sectionOuvidoriaContentFoot img{
+  width: 250px;
+  margin: 10px;
+  border-radius: 1.5rem;
+  transition: transform .2s; 
+}
+
+.sectionOuvidoriaContentFoot img:hover{
+  transform: scale(1.02);
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.5),0 0px 0 1px rgba(10,10,10,0.05);
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+  .sectionOuvidoriaContent img {
+    width: 100%;
+    height: 453px;
+  }
+  
+  .consultaManifest form{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
+    /* justify-self: center; */
+  }
+
+}

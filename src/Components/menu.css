@@ -1,0 +1,23 @@
+.navbar{
+    /* background-color: #bd3433; */
+    background: white;
+    border-bottom: 1px solid #bd3433;
+}
+.imgsize{
+    width: 500px;
+}
+
+@font-face {
+    font-family: 'AmsiPro-Black';
+    src: local('amsi'), url('../fonts/amsi/AmsiPro-Black.ttf') format('truetype');
+  }
+
+h1{
+    font-family: 'AmsiPro-Black';
+}
+
+@media only screen and (max-width: 600px) {
+    .imgsize{
+        width: 100%;
+    }
+}
