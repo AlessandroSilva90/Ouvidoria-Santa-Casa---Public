@@ -1,8 +1,5 @@
-# React + Vite
+# Sistema Ouvidoria Santa Casa de Misericórdia de Sobral
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema criado para facilitar o fluxo de comunicação entre pacientes, funcionários e a ouvidoria do Hospital.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desenvolvido em ReactJs com Vite, e o backend em SlimPHP.
